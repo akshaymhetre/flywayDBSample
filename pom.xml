@@ -76,6 +76,9 @@
                 <configuration>
                     <url>jdbc:h2:file:./target/flywaySample</url>
                     <user>sa</user>
+                    <locations>
+                        <location>classpath:db/migration</location>
+                    </locations>
                 </configuration>
                 <dependencies>
                     <dependency>
